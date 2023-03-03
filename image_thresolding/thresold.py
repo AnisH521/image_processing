@@ -1,4 +1,4 @@
-def negative_image() -> None:
+def threshold_image() -> None:
     with open("girl.pgm") as file_in:
         lines = []
         for line in file_in:
@@ -35,7 +35,7 @@ def negative_image() -> None:
         file_out.close()
 
 def main() -> None:
-    negative_image()
+    threshold_image()
 
 if __name__ == "__main__":
     main()
